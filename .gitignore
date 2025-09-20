@@ -1,0 +1,35 @@
+# Byte-compiled / caching
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python packaging
+dist/
+build/
+*.egg-info
+
+# Logs
+*.log
+
+# Data / outputs 
+weights/
+*.mp4
+*.mov
+*.avi
+
+# Keras / TensorFlow checkpoints 
+*.h5
+*.pt
+mobilenetv2_model.keras
